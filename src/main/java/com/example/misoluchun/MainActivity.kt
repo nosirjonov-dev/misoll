@@ -77,6 +77,7 @@ class MainActivity : AppCompatActivity() {
             dialog.show()
             true
         }
+        showAppInfo()
     }
 
     private fun saveTodos() {
@@ -131,4 +132,9 @@ class MainActivity : AppCompatActivity() {
             return view
         }
     }
+
+    private fun showAppInfo() {
+        Toast.makeText(this, "Bu dasturni Nosirjonov Qosimjon yaratgan 😎", Toast.LENGTH_LONG).show()
+    }
+
 }
